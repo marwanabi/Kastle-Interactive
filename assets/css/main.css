@@ -152,13 +152,12 @@ nav ul li a{
 }
 
 .footer-text{
-		width: 1040px;
-    float: right;
-    font-size: 28px;
-    position: absolute;
-    right: 0;
-    bottom: 100px;
-    padding-right: 150px;
+	width: calc(100% - 26%);
+	font-size: 28px;
+	position: absolute;
+	bottom: 100px;
+	padding-right: 150px;
+	right: 0;
 }
 
 .slick-initialized {

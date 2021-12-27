@@ -203,7 +203,6 @@ nav ul li a{
 	opacity: 0.6;
 	font-style: italic;
 	text-transform: capitalize;
-	display: none;
 }
 
 .slide-content:nth-child(odd){

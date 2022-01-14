@@ -1,3 +1,8 @@
+function checkOffset() {
+  if ($('#side-menu').offset().top + $('#side-menu').height() >= $('#main-footer').offset().top - 100) $('#side-menu').css('opacity', '0');
+  if ($(document).scrollTop() + window.innerHeight < $('#main-footer').offset().top) $('#side-menu').css('opacity', '1');
+}
+
 function scrollID() {
   var lastId,
    topMenu = $("#menu-center"),
@@ -46,11 +51,15 @@ $(document).ready(function() {
     fade: true,
     variableWidth: false ,
 adaptiveHeight: false,
-    prevArrow: '<button type="button" class="slick-prev">' + '<img src="../assets/images/arrow.svg"' + '/></button>',
-    nextArrow: '<button type="button" class="slick-next">' + '<img src="../assets/images/arrow.svg"' + '/></button>',
+    prevArrow: '<button type="button" class="slick-prev">' + '<img src="assets/images/arrow.svg"' + '/></button>',
+    nextArrow: '<button type="button" class="slick-next">' + '<img src="assets/images/arrow.svg"' + '/></button>',
     customPaging: function(slick,index) {
         return '<a>' + (index + 1) + '</a>';
     }
+  });
+
+  $(document).scroll(function() {
+    checkOffset();
   });
 
 });

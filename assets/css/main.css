@@ -102,12 +102,17 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  color: #D72329;
-  border-bottom: 1px solid #D72329;
-  font-weight: 700;
+  color: #D72329 !important;
+  border-bottom: 1px solid #D72329 !important;
+  font-weight: 600;
   transition: all 0.3s ease-in;
 }
 
+nav ul.active li a {
+  color: #1d1d1d;
+  border-bottom: 1px solid #1d1d1d;
+  transition: all 0.3s ease-in;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;

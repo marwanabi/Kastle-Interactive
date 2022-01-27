@@ -50,7 +50,7 @@ $(document).ready(function() {
     arrows: true,
     fade: true,
     variableWidth: false ,
-adaptiveHeight: false,
+    adaptiveHeight: false,
     prevArrow: '<button type="button" class="slick-prev">' + '<img src="assets/images/arrow.svg"' + '/></button>',
     nextArrow: '<button type="button" class="slick-next">' + '<img src="assets/images/arrow.svg"' + '/></button>',
     customPaging: function(slick,index) {

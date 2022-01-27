@@ -134,6 +134,7 @@ nav ul.active li a {
   font-size: 45px;
   font-family: 'AvenirNext-Bold', sans-serif;
   padding-bottom: 15px;
+  color: #1d1d1d;
 }
 
 .content-wrapper .introduction h3 {
@@ -141,6 +142,7 @@ nav ul.active li a {
   font-family: 'AvenirNext-Regular', sans-serif;
   font-weight: normal;
   padding-bottom: 50px;
+  color: #1d1d1d;
 }
 
 .content-wrapper .introduction p {
@@ -148,6 +150,7 @@ nav ul.active li a {
   font-family: 'AvenirNext-Regular', sans-serif;
   font-weight: normal;
   padding-bottom: 30px;
+  color: #1d1d1d;
 }
 
 .content-wrapper .section{
@@ -162,14 +165,12 @@ nav ul.active li a {
   font-size: 32px;
   padding-bottom: 50px;
   font-family: 'AvenirNext-Bold', sans-serif;
+  color: #1d1d1d;
 }
 
 .content-wrapper [class^="section"] p {
   padding-bottom: 30px;
-}
-
-.content-wrapper [class^="section"] .section-description {
-  /* width: 470px; */
+  color: #1d1d1d;
 }
 
 .content-wrapper .section [class^="section"] img {
@@ -177,9 +178,6 @@ nav ul.active li a {
 }
 
 #footer {
-  /* position: relative;
-  z-index: -1;
-  display: inline-block; */
   position: relative;
   background: #f4f4f4;
   padding: 150px 40px;
@@ -202,6 +200,7 @@ nav ul.active li a {
   width: 100%;
   font-weight: 600;
   line-height: 44px;
+  color: #1d1d1d;
 }
 
 #footer .footer-text a{
@@ -224,6 +223,7 @@ nav ul.active li a {
   max-width: 1040px;
   width: 100%;
   z-index: 0;
+  color: #1d1d1d;
 }
 
 #footer .footer-quote:before{

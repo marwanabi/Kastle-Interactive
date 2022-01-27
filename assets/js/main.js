@@ -60,12 +60,6 @@ $(document).ready(function() {
 
   $(document).scroll(function() {
     checkOffset();
-    var top_offset = $(window).scrollTop();
-      if (top_offset < 230) {
-        $('ul').removeClass('active');
-      } else {
-        $('ul').addClass('active');
-      }
   });
 
 });

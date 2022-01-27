@@ -92,7 +92,7 @@ nav ul li {
 nav ul li a {
   border-bottom: 1px solid #d3d4d5;
   padding-top: 20px;
-  color: #ab2328;
+  color: #1d1d1d;
   display: block;
   font-size: 18px;
   font-family: 'AvenirNext-Regular', sans-serif;
@@ -108,11 +108,6 @@ nav ul li.active a {
   transition: all 0.3s ease-in;
 }
 
-nav ul.active li a {
-  color: #1d1d1d;
-  border-bottom: 1px solid #1d1d1d;
-  transition: all 0.3s ease-in;
-}
 .container {
   max-width: 1400px;
   margin: 0 auto;

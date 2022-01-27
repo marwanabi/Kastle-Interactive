@@ -196,6 +196,7 @@ nav ul li.active a {
   max-width: 1040px;
   width: 100%;
   font-weight: 600;
+  line-height: 44px;
 }
 
 #footer .footer-text a{

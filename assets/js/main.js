@@ -1,6 +1,6 @@
 function checkOffset() {
-  if ($('#side-menu').offset().top + $('#side-menu').height() >= $('#main-footer').offset().top - 100) $('#side-menu').css('opacity', '0');
-  if ($(document).scrollTop() + window.innerHeight < $('#main-footer').offset().top) $('#side-menu').css('opacity', '1');
+  if ($('.fixed-elements').offset().top + $('.fixed-elements').height() >= $('#main-footer').offset().top - 100) $('.fixed-elements').css('opacity', '0');
+  if ($(document).scrollTop() + window.innerHeight < $('#main-footer').offset().top) $('.fixed-elements').css('opacity', '1');
 }
 
 function scrollID() {
@@ -55,7 +55,15 @@ $(document).ready(function() {
     nextArrow: '<button type="button" class="slick-next">' + '<img src="assets/images/arrow.svg"' + '/></button>',
     customPaging: function(slick,index) {
         return '<a>' + (index + 1) + '</a>';
+    },
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        adaptiveHeight: true
+      }
     }
+    ]
   });
 
   $(document).scroll(function() {

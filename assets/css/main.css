@@ -527,6 +527,9 @@ nav ul li.active a {
   #footer .footer-quote {
     font-size: 28px;
   }
+  #footer .container {
+    padding: 0px !important
+  }
   .footer-text {
     font-size: 24px;
     position: initial;

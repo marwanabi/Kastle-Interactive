@@ -182,6 +182,7 @@ nav ul li.active a {
   content: '';
   background: url(../images/Diagonal.svg) no-repeat;
   background-size: cover;
+  background-position: center bottom;
   position: absolute;
   width: 100%;
   height: 100vh;
